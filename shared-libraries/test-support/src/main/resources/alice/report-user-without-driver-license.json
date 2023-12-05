@@ -1,0 +1,739 @@
+{
+  "report": {
+    "created_at": "2021-09-09T11:00:05.675007",
+    "document_reports": {
+      "idcard-document-id": {
+        "completed": true,
+        "created_at": "2021-09-09T10:59:58",
+        "face_match_score": 0.9494574780981948,
+        "face_validation": {
+          "score": 0.943922349599661
+        },
+        "issuing_country": "FRA",
+        "sides": {
+          "back": {
+            "authenticity": {
+              "copy_traces": 0.4494512497169384,
+              "encoded_id_data_is_valid": true,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0.4494512497169384,
+                "temporary_raw_score": 86.50485026041667
+              },
+              "saturation": {
+                "score": 0.08358908315769642,
+                "temporary_raw_score": 85.45549953056083
+              },
+              "screen": {
+                "score": 0.4122353594815825,
+                "temporary_raw_score": 0.604337037
+              }
+            },
+            "face_bounding_box": null,
+            "fields": {
+              "address": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "1993-08-12"
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.9
+                },
+                "value": "CIUTADELLA DE MENORCA ILLES BALEARS"
+              },
+              "city": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "FRA"
+              },
+              "document_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "BHB193552"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "ID"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "2023-06-15"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.86
+                },
+                "value": "LLUIS"
+              },
+              "id_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.86
+                },
+                "value": "OEREZ MONTANER"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2300,
+                      "message": "Name is entirely contained in MRZ"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "IDESPBHB1935528{stub.id_card.number}<<<<<<\n9308123M2306153ESP<<<<<<<<<<<6\nOEREZ<MONTANER<<LLUIS<<<<<<<<<"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "FRA"
+              },
+              "optional_data": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "optional_data_2": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "province": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "M"
+              }
+            },
+            "manual_capture": true,
+            "media_id": "4c7aee09-a52e-4a02-9281-19f2ed95ab39.jpg",
+            "template": "idcard_esp_back_v3",
+            "thumbnail_id": "9d7e2358-d131-4f2a-b120-692824740995.jpg",
+            "whole_media_id": "7edcf742-253c-4ac8-82e8-943df42e97fa.jpg"
+          },
+          "front": {
+            "authenticity": {
+              "copy_traces": 0.39350991026947546,
+              "encoded_id_data_is_valid": null,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0.39350991026947546,
+                "temporary_raw_score": 137.97088255208254
+              },
+              "saturation": {
+                "score": 0.09410015592627465,
+                "temporary_raw_score": 83.6265728688282
+              },
+              "screen": {
+                "score": 0.3827252864938608,
+                "temporary_raw_score": 0.56107527
+              }
+            },
+            "face_bounding_box": {
+              "height": 347,
+              "width": 245,
+              "x": 75,
+              "y": 250
+            },
+            "fields": {
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.95
+                },
+                "value": "1993-08-12"
+              },
+              "document_number": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.88
+                },
+                "value": "BHB193552"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.95
+                },
+                "value": "2023-06-15"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2302,
+                      "message": "Name words number matches MRZ"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "LLUIS"
+              },
+              "id_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.32
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2302,
+                      "message": "Name words number matches MRZ"
+                    }
+                  ],
+                  "score": 0.93
+                },
+                "value": "PEREZ MONTANER"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 1
+                },
+                "value": "FRA"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              }
+            },
+            "manual_capture": true,
+            "media_id": "991169ed-56b0-479a-9fdf-44f71ab06586.jpg",
+            "template": "idcard_esp_front_v3",
+            "thumbnail_id": "50afb1ef-6a8c-46a9-a9cd-173e98be8132.jpg",
+            "whole_media_id": "24f54b75-43c8-46fe-b5fb-eb513bedf545.jpg"
+          },
+          "internal": null
+        },
+        "type": "idcard",
+        "voided": false
+      }
+    },
+    "selfie_reports": {
+      "6cf0cac9-4073-4830-a5b4-ea7ba479b6fd": {
+        "created_at": "2021-09-09T11:00:05",
+        "face_bounding_box": {
+          "height": 443,
+          "width": 672,
+          "x": 98,
+          "y": 210
+        },
+        "liveness": {
+          "score": 0.999999762
+        },
+        "media_avatar_id": "4bfb5be8-9b46-4527-8d4b-2a3f202d4296.jpeg",
+        "media_id": "9842cc91-6e28-4e53-b532-eaa6b9ccdedb.jpg",
+        "media_selfie_id": "6cf0cac9-4073-4830-a5b4-ea7ba479b6fd.png",
+        "voided": false
+      }
+    },
+    "user_summary": {
+      "authorized": false,
+      "created_at": "2021-09-09T10:59:58",
+      "documents": {
+        "status": {
+          "alert": [],
+          "info": []
+        },
+        "summary": {
+          "idcard-document-id": {
+            "completed": true,
+            "created_at": "2021-09-09T10:59:58",
+            "face_validation": {
+              "score": 0.943922349599661
+            },
+            "fields": {
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "1993-08-12"
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.9
+                },
+                "value": "CIUTADELLA DE MENORCA ILLES BALEARS"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "FRA"
+              },
+              "document_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "BHB193552"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "ID"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "2023-06-15"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.86
+                },
+                "value": "LLUIS"
+              },
+              "id_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.86
+                },
+                "value": "OEREZ MONTANER"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2300,
+                      "message": "Name is entirely contained in MRZ"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "IDESPBHB1935528{stub.id_card.number}<<<<<<\n9308123M2306153ESP<<<<<<<<<<<6\nOEREZ<MONTANER<<LLUIS<<<<<<<<<"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "FRA"
+              },
+              "optional_data": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.86
+                },
+                "value": "M"
+              }
+            },
+            "issuing_country": "FRA",
+            "status": {
+              "alert": [],
+              "info": []
+            },
+            "type": "idcard",
+            "voided": false
+          }
+        },
+        "uploaded_documents": [
+          "idcard-document-id"
+        ]
+      },
+      "fields": {
+        "address": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": null
+          },
+          "value": null
+        },
+        "birth_date": {
+          "status": {
+            "alert": [],
+            "info": [
+              {
+                "code": 2301,
+                "message": "Field is checked"
+              },
+              {
+                "code": 2100,
+                "message": "Valid date format"
+              },
+              {
+                "code": 2101,
+                "message": "Date is within valid range"
+              },
+              {
+                "code": 2102,
+                "message": "Over 18 years old"
+              }
+            ],
+            "score": 0.86
+          },
+          "value": "1993-08-12"
+        },
+        "email": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 1
+          },
+          "value": "zeus.agent@cooltra.com"
+        },
+        "first_name": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 0.86
+          },
+          "value": "LLUIS"
+        },
+        "last_name": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 0.86
+          },
+          "value": "OEREZ MONTANER"
+        },
+        "nationality": {
+          "status": {
+            "alert": [],
+            "info": [
+              {
+                "code": 2301,
+                "message": "Field is checked"
+              }
+            ],
+            "score": 0.86
+          },
+          "value": "FRA"
+        },
+        "registration_first_name": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 1
+          },
+          "value": "1094"
+        },
+        "registration_last_name": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 1
+          },
+          "value": "ZEUS-COOLTRA"
+        },
+        "sex": {
+          "status": {
+            "alert": [],
+            "info": [
+              {
+                "code": 2301,
+                "message": "Field is checked"
+              }
+            ],
+            "score": 0.86
+          },
+          "value": "M"
+        }
+      },
+      "selfie": {
+        "created_at": "2021-09-09T11:00:05",
+        "face_bounding_box": {
+          "height": 443,
+          "width": 672,
+          "x": 98,
+          "y": 210
+        },
+        "liveness": {
+          "score": 0.999999762
+        },
+        "media_avatar_id": "4bfb5be8-9b46-4527-8d4b-2a3f202d4296.jpeg",
+        "media_id": "9842cc91-6e28-4e53-b532-eaa6b9ccdedb.jpg",
+        "media_selfie_id": "6cf0cac9-4073-4830-a5b4-ea7ba479b6fd.png",
+        "voided": false
+      },
+      "user_id": "4f2434da-6857-4d34-8e92-bb3f26554652"
+    },
+    "version": 0
+  }
+}

@@ -1,0 +1,740 @@
+{
+  "report": {
+    "created_at": "2021-08-24T12:07:40.893456",
+    "document_reports": {
+      "healthinsurancecard-document-id": {
+        "completed": true,
+        "created_at": "2021-08-24T12:06:54",
+        "face_match_score": null,
+        "face_validation": null,
+        "issuing_country": "ITA",
+        "sides": {
+          "back": {
+            "authenticity": {
+              "copy_traces": 0.16727144100440816,
+              "encoded_id_data_is_valid": null,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0,
+                "temporary_raw_score": 1579.2934929687474
+              },
+              "saturation": {
+                "score": 0.16727144100440816,
+                "temporary_raw_score": 70.89476926523298
+              },
+              "screen": {
+                "score": 0.10088270122783088,
+                "temporary_raw_score": 0.14789404
+              }
+            },
+            "face_bounding_box": null,
+            "fields": {
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.1
+                },
+                "value": "1994-08-08"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 1
+                },
+                "value": "ITA"
+              },
+              "document_number": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "first_name": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [],
+                  "score": 0.7
+                },
+                "value": "DMCNNL"
+              },
+              "fiscal_code": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4001,
+                      "message": "Field is unchecked"
+                    },
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [],
+                  "score": 0.38
+                },
+                "value": "I BO3B00O12O014Z"
+              },
+              "issuing_authority": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 1
+                },
+                "value": "SSN-MIN SALUTE - 500001"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              }
+            },
+            "manual_capture": true,
+            "media_id": "c4c120ec-8f1c-42a0-a6dc-27a160267012.jpg",
+            "template": "healthinsurancecard_ita_back_v02001",
+            "thumbnail_id": "d211c7e8-eaad-4331-8751-bcc5ab1fa9e8.jpg",
+            "whole_media_id": "017f066a-d4dd-4400-81dd-d622e72baa34.jpg"
+          },
+          "front": {
+            "authenticity": {
+              "copy_traces": 0.011034303157528291,
+              "encoded_id_data_is_valid": null,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0,
+                "temporary_raw_score": 723.3452302083351
+              },
+              "saturation": {
+                "score": 0.011034303157528291,
+                "temporary_raw_score": 98.08003125059008
+              },
+              "screen": {
+                "score": 0.2330436105047749,
+                "temporary_raw_score": 0.341641933
+              }
+            },
+            "face_bounding_box": null,
+            "fields": {
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0
+                },
+                "value": "NR"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.96
+                },
+                "value": "2022-09-04"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [],
+                  "score": 0
+                },
+                "value": "GFAR"
+              },
+              "fiscal_code": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4001,
+                      "message": "Field is unchecked"
+                    },
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [],
+                  "score": 0.74
+                },
+                "value": "DMCNNL74MU0CU54I"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.87
+                },
+                "value": "DE MICCO"
+              },
+              "province": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.22
+                },
+                "value": "TS"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.9
+                },
+                "value": "M"
+              }
+            },
+            "manual_capture": true,
+            "media_id": "27686e3b-2ed9-4e5c-ab18-2fdbed88a878.jpg",
+            "template": "healthinsurancecard_ita_front_v02001",
+            "thumbnail_id": "f2cddb5f-6ee9-490b-aeeb-d582695a755b.jpg",
+            "whole_media_id": "6e9fc1dd-66f7-4dad-81e9-08b3c94f4e3c.jpg"
+          },
+          "internal": null
+        },
+        "type": "healthinsurancecard",
+        "voided": false
+      }
+    },
+    "selfie_reports": {
+      "4a1c2493-9880-43c5-8b83-86a66d740f0f": {
+        "created_at": "2021-08-24T12:07:35",
+        "face_bounding_box": {
+          "height": 666,
+          "width": 431,
+          "x": 175,
+          "y": 153
+        },
+        "liveness": {
+          "score": 0.991648302027027
+        },
+        "media_avatar_id": "6f449c48-a9b9-4d71-98da-73703676ff59.jpeg",
+        "media_id": "710fa278-936f-4d3f-8117-7976cc8087ce.jpg",
+        "media_selfie_id": "4a1c2493-9880-43c5-8b83-86a66d740f0f.png",
+        "voided": false
+      }
+    },
+    "user_summary": {
+      "authorized": false,
+      "created_at": "2021-08-24T12:06:47",
+      "documents": {
+        "status": {
+          "alert": [
+            {
+              "code": 4201,
+              "message": "At least one document is missing its face validation"
+            }
+          ],
+          "info": []
+        },
+        "summary": {
+          "driving-license-document-id": {
+            "completed": true,
+            "created_at": "2021-08-14T17:10:40",
+            "face_validation": {
+              "score": 0.943922349599661
+            },
+            "fields": {
+              "a1_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.94
+                },
+                "value": "1996-04-26"
+              },
+              "am_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.82
+                },
+                "value": "2013-01-19"
+              },
+              "b1_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.94
+                },
+                "value": "1996-04-26"
+              },
+              "b_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "1996-04-26"
+              },
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.89
+                },
+                "value": "1977-04-20"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "FRA"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "D1"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "2029-06-30"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.16
+                },
+                "value": "ADEXANDRE BRANZ"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.95
+                },
+                "value": "2014-06-30"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "TAITTING"
+              },
+              "license_categories": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.61625
+                },
+                "value": "A A2 A1 B AM B1"
+              },
+              "license_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "14AM81680"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "D1FRA14AM816800290630TAITTING0"
+              }
+            },
+            "issuing_country": "FRA",
+            "status": {
+              "alert": [],
+              "info": []
+            },
+            "type": "driverlicense",
+            "voided": false
+          },
+          "healthinsurancecard-document-id": {
+            "completed": true,
+            "created_at": "2021-08-24T12:06:54",
+            "face_validation": null,
+            "fields": {
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.1
+                },
+                "value": "1994-08-08"
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0
+                },
+                "value": "NR"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.1
+                },
+                "value": "ITA"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.96
+                },
+                "value": "2022-09-04"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [],
+                  "score": 0.7
+                },
+                "value": "DMCNNL"
+              },
+              "fiscal_code": {
+                "status": {
+                  "alert": [
+                  ],
+                  "info": [],
+                  "score": 0.84
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "issuing_authority": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 1
+                },
+                "value": "SSN-MIN SALUTE - 500001"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.87
+                },
+                "value": "DE MICCO"
+              },
+              "province": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.22
+                },
+                "value": "TS"
+              }
+            },
+            "issuing_country": "ITA",
+            "status": {
+              "alert": [
+                {
+                  "code": 4303,
+                  "message": "There are unchecked fields in the document"
+                }
+              ],
+              "info": []
+            },
+            "type": "healthinsurancecard",
+            "voided": false
+          }
+        },
+        "uploaded_documents": [
+          "healthinsurancecard-document-id"
+        ]
+      },
+      "fields": {
+        "address": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": null
+          },
+          "value": null
+        },
+        "birth_date": {
+          "status": {
+            "alert": [],
+            "info": [
+              {
+                "code": 2100,
+                "message": "Valid date format"
+              },
+              {
+                "code": 2101,
+                "message": "Date is within valid range"
+              },
+              {
+                "code": 2102,
+                "message": "Over 18 years old"
+              }
+            ],
+            "score": 0.9
+          },
+          "value": "1994-08-08"
+        },
+        "email": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 1
+          },
+          "value": "test2@cooltra.com"
+        },
+        "first_name": {
+          "status": {
+            "alert": [
+            ],
+            "info": [],
+            "score": 0.9
+          },
+          "value": "DMCNNL"
+        },
+        "last_name": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 0.87
+          },
+          "value": "DE MICCO"
+        },
+        "nationality": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": null
+          },
+          "value": null
+        },
+        "registration_first_name": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 1
+          },
+          "value": "TESSERA2"
+        },
+        "registration_last_name": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 1
+          },
+          "value": "ESPANOLA"
+        },
+        "sex": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 0.9
+          },
+          "value": "M"
+        }
+      },
+      "selfie": {
+        "created_at": "2021-08-24T12:07:35",
+        "face_bounding_box": {
+          "height": 666,
+          "width": 431,
+          "x": 175,
+          "y": 153
+        },
+        "liveness": {
+          "score": 0.991648302027027
+        },
+        "media_avatar_id": "6f449c48-a9b9-4d71-98da-73703676ff59.jpeg",
+        "media_id": "710fa278-936f-4d3f-8117-7976cc8087ce.jpg",
+        "media_selfie_id": "4a1c2493-9880-43c5-8b83-86a66d740f0f.png",
+        "voided": false
+      },
+      "user_id": "819ef123-5cee-44a5-bcbc-e383b1082d35"
+    },
+    "version": 0
+  }
+}

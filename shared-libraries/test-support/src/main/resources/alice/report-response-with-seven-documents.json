@@ -1,0 +1,3945 @@
+{
+  "report": {
+    "created_at": "2021-08-14T17:11:06.313348",
+    "document_reports": {
+      "driving-license-document-id": {
+        "completed": true,
+        "created_at": "2021-08-14T17:10:40",
+        "face_match_score": 0.8833952861199778,
+        "face_validation": {
+          "score": 0.943922349599661
+        },
+        "issuing_country": "FRA",
+        "sides": {
+          "back": {
+            "authenticity": {
+              "copy_traces": 0.4494442651721012,
+              "encoded_id_data_is_valid": null,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0.4494442651721012,
+                "temporary_raw_score": 86.5112760416669
+              },
+              "saturation": {
+                "score": 0.4204251583879218,
+                "temporary_raw_score": 26.84602244050161
+              },
+              "screen": {
+                "score": 0.38289686357435193,
+                "temporary_raw_score": 0.561326802
+              }
+            },
+            "face_bounding_box": null,
+            "fields": {
+              "a1_expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "a1_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.94
+                },
+                "value": "1996-04-26"
+              },
+              "a2_expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "a2_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "a_expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "a_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "am_expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "am_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.82
+                },
+                "value": "2013-01-19"
+              },
+              "b1_expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "b1_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.94
+                },
+                "value": "1996-04-26"
+              },
+              "b_expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "b_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "1996-04-26"
+              },
+              "be_expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "be_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "c1_expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "c1_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "c1e_expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "c1e_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "c_expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "c_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "ce_expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "ce_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "d1_expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "d1_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "d1e_expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "d1e_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "d_expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "d_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "de_expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "de_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              }
+            },
+            "manual_capture": true,
+            "media_id": "d4cf05df-fa50-4db9-b473-598d5ae993ab.jpg",
+            "template": "driverlicense_fra_back_v07001",
+            "thumbnail_id": "c9761341-1cd0-48b1-afde-a269e62647bd.jpg",
+            "whole_media_id": "ede194c9-4de4-404e-825e-4ecc498c5db4.jpg"
+          },
+          "front": {
+            "authenticity": {
+              "copy_traces": 0.3933628171449473,
+              "encoded_id_data_is_valid": true,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0.28792399569746396,
+                "temporary_raw_score": 235.10992395833313
+              },
+              "saturation": {
+                "score": 0.3933628171449473,
+                "temporary_raw_score": 31.55486981677917
+              },
+              "screen": {
+                "score": 0.4893812121418827,
+                "temporary_raw_score": 0.717432857
+              }
+            },
+            "face_bounding_box": {
+              "height": 234,
+              "width": 176,
+              "x": 91,
+              "y": 167
+            },
+            "fields": {
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.89
+                },
+                "value": "1977-04-20"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "FRA"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "D1"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "2029-06-30"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.16
+                },
+                "value": "JMES BOND"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.95
+                },
+                "value": "2014-06-30"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "TAITTING"
+              },
+              "license_categories": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.33
+                },
+                "value": "A A1 A2 AM B B1"
+              },
+              "license_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "14AM81680"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "D1FRA14AM816800290630TAITTING0"
+              }
+            },
+            "manual_capture": true,
+            "media_id": "5eb877f3-872c-4e4e-aa88-34dac667a9fd.jpg",
+            "template": "driverlicense_fra_front_v06001",
+            "thumbnail_id": "1e4669ce-7da3-4d76-93f8-1012bc62f792.jpg",
+            "whole_media_id": "9c55d812-2b2b-42c8-93dd-4a8246fcd918.jpg"
+          },
+          "internal": null
+        },
+        "type": "driverlicense",
+        "voided": false
+      },
+      "idcard-document-id": {
+        "completed": true,
+        "created_at": "2021-08-14T17:10:22",
+        "face_match_score": 0.9328685860379764,
+        "face_validation": {
+          "score": 0.943922349599661
+        },
+        "issuing_country": "FRA",
+        "sides": {
+          "back": {
+            "authenticity": {
+              "copy_traces": 0.3732092904775163,
+              "encoded_id_data_is_valid": null,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0,
+                "temporary_raw_score": 614.4342492187502
+              },
+              "saturation": {
+                "score": 0.3732092904775163,
+                "temporary_raw_score": 35.061583456912174
+              },
+              "screen": {
+                "score": 0.2750322022471909,
+                "temporary_raw_score": 0.279867196
+              }
+            },
+            "face_bounding_box": null,
+            "fields": {
+              "address": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.87
+                },
+                "value": "11 RUE PONCELET PARIS 17E (75)"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.36
+                },
+                "value": "2022-08-16"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.49
+                },
+                "value": "2012-08-17"
+              },
+              "issuing_authority": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.86
+                },
+                "value": "PREFECTURE DE POLICE - PARIS ANTENNE XVII (75)"
+              }
+            },
+            "manual_capture": true,
+            "media_id": "fbdf87d0-95e6-4791-bd20-1dc6a55208e3.jpg",
+            "template": "idcard_fra_back_v02002",
+            "thumbnail_id": "17184541-8b90-4e50-acd0-1f4ace289d95.jpg",
+            "whole_media_id": "5023852d-c3bf-4901-9a16-5354bc812d08.jpg"
+          },
+          "front": {
+            "authenticity": {
+              "copy_traces": 0.3945338232228476,
+              "encoded_id_data_is_valid": true,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0,
+                "temporary_raw_score": 591.5616273437456
+              },
+              "saturation": {
+                "score": 0.3945338232228476,
+                "temporary_raw_score": 31.351114759224515
+              },
+              "screen": {
+                "score": 0.26134876261937245,
+                "temporary_raw_score": 0.383137286
+              }
+            },
+            "face_bounding_box": {
+              "height": 280,
+              "width": 197,
+              "x": 104,
+              "y": 181
+            },
+            "fields": {
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "1977-04-20"
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.3
+                },
+                "value": "-RUETL-MALMATSON"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "ID"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2027-08-31"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.94
+                },
+                "value": "JAMES BOND"
+              },
+              "id_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2012-08-31"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.85
+                },
+                "value": "TATTTINGER"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "IDFRATAITTINGER<<<<<<<<<<<<<<<75S001\n{stub.id_card.number}1JAMES<<FRA7704204M0"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "M"
+              }
+            },
+            "manual_capture": true,
+            "media_id": "da88e770-99e3-4844-8298-795391ee532c.jpg",
+            "template": "idcard_fra_front_v02002",
+            "thumbnail_id": "41b4bd92-8575-4a75-acc3-2e51d3033b96.jpg",
+            "whole_media_id": "da986844-5ea4-428a-b582-46f2dc5d0984.jpg"
+          },
+          "internal": null
+        },
+        "type": "idcard",
+        "voided": false
+      },
+      "first-voided-idcard-document-id": {
+        "completed": true,
+        "created_at": "2021-08-14T17:10:22",
+        "face_match_score": 0.9328685860379764,
+        "face_validation": {
+          "score": 0.943922349599661
+        },
+        "issuing_country": "FRA",
+        "sides": {
+          "back": {
+            "authenticity": {
+              "copy_traces": 0.3732092904775163,
+              "encoded_id_data_is_valid": null,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0,
+                "temporary_raw_score": 614.4342492187502
+              },
+              "saturation": {
+                "score": 0.3732092904775163,
+                "temporary_raw_score": 35.061583456912174
+              },
+              "screen": {
+                "score": 0.2750322022471909,
+                "temporary_raw_score": 0.279867196
+              }
+            },
+            "face_bounding_box": null,
+            "fields": {
+              "address": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.87
+                },
+                "value": "11 RUE PONCELET PARIS 17E (75)"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.36
+                },
+                "value": "2022-08-16"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.49
+                },
+                "value": "2012-08-17"
+              },
+              "issuing_authority": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.86
+                },
+                "value": "PREFECTURE DE POLICE - PARIS ANTENNE XVII (75)"
+              }
+            },
+            "manual_capture": true,
+            "media_id": "fbdf87d0-95e6-4791-bd20-1dc6a55208e3.jpg",
+            "template": "idcard_fra_back_v02002",
+            "thumbnail_id": "17184541-8b90-4e50-acd0-1f4ace289d95.jpg",
+            "whole_media_id": "5023852d-c3bf-4901-9a16-5354bc812d08.jpg"
+          },
+          "front": {
+            "authenticity": {
+              "copy_traces": 0.3945338232228476,
+              "encoded_id_data_is_valid": true,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0,
+                "temporary_raw_score": 591.5616273437456
+              },
+              "saturation": {
+                "score": 0.3945338232228476,
+                "temporary_raw_score": 31.351114759224515
+              },
+              "screen": {
+                "score": 0.26134876261937245,
+                "temporary_raw_score": 0.383137286
+              }
+            },
+            "face_bounding_box": {
+              "height": 280,
+              "width": 197,
+              "x": 104,
+              "y": 181
+            },
+            "fields": {
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "1977-04-20"
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.3
+                },
+                "value": "-RUETL-MALMATSON"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "ID"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2027-08-31"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.94
+                },
+                "value": "JAMES BOND"
+              },
+              "id_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2012-08-31"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.85
+                },
+                "value": "TATTTINGER"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "IDFRATAITTINGER<<<<<<<<<<<<<<<75S001\n{stub.id_card.number}1JAMES<<FRA7704204M0"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "M"
+              }
+            },
+            "manual_capture": true,
+            "media_id": "da88e770-99e3-4844-8298-795391ee532c.jpg",
+            "template": "idcard_fra_front_v02002",
+            "thumbnail_id": "41b4bd92-8575-4a75-acc3-2e51d3033b96.jpg",
+            "whole_media_id": "da986844-5ea4-428a-b582-46f2dc5d0984.jpg"
+          },
+          "internal": null
+        },
+        "type": "idcard",
+        "voided": true
+      },
+      "second-voided-idcard-document-id": {
+        "completed": true,
+        "created_at": "2021-08-14T17:10:22",
+        "face_match_score": 0.9328685860379764,
+        "face_validation": {
+          "score": 0.943922349599661
+        },
+        "issuing_country": "FRA",
+        "sides": {
+          "back": {
+            "authenticity": {
+              "copy_traces": 0.3732092904775163,
+              "encoded_id_data_is_valid": null,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0,
+                "temporary_raw_score": 614.4342492187502
+              },
+              "saturation": {
+                "score": 0.3732092904775163,
+                "temporary_raw_score": 35.061583456912174
+              },
+              "screen": {
+                "score": 0.2750322022471909,
+                "temporary_raw_score": 0.279867196
+              }
+            },
+            "face_bounding_box": null,
+            "fields": {
+              "address": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.87
+                },
+                "value": "11 RUE PONCELET PARIS 17E (75)"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.36
+                },
+                "value": "2022-08-16"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.49
+                },
+                "value": "2012-08-17"
+              },
+              "issuing_authority": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.86
+                },
+                "value": "PREFECTURE DE POLICE - PARIS ANTENNE XVII (75)"
+              }
+            },
+            "manual_capture": true,
+            "media_id": "fbdf87d0-95e6-4791-bd20-1dc6a55208e3.jpg",
+            "template": "idcard_fra_back_v02002",
+            "thumbnail_id": "17184541-8b90-4e50-acd0-1f4ace289d95.jpg",
+            "whole_media_id": "5023852d-c3bf-4901-9a16-5354bc812d08.jpg"
+          },
+          "front": {
+            "authenticity": {
+              "copy_traces": 0.3945338232228476,
+              "encoded_id_data_is_valid": true,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0,
+                "temporary_raw_score": 591.5616273437456
+              },
+              "saturation": {
+                "score": 0.3945338232228476,
+                "temporary_raw_score": 31.351114759224515
+              },
+              "screen": {
+                "score": 0.26134876261937245,
+                "temporary_raw_score": 0.383137286
+              }
+            },
+            "face_bounding_box": {
+              "height": 280,
+              "width": 197,
+              "x": 104,
+              "y": 181
+            },
+            "fields": {
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "1977-04-20"
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.3
+                },
+                "value": "-RUETL-MALMATSON"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "ID"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2027-08-31"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.94
+                },
+                "value": "JAMES BOND"
+              },
+              "id_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2012-08-31"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.85
+                },
+                "value": "TATTTINGER"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "IDFRATAITTINGER<<<<<<<<<<<<<<<75S001\n{stub.id_card.number}1JAMES<<FRA7704204M0"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "M"
+              }
+            },
+            "manual_capture": true,
+            "media_id": "da88e770-99e3-4844-8298-795391ee532c.jpg",
+            "template": "idcard_fra_front_v02002",
+            "thumbnail_id": "41b4bd92-8575-4a75-acc3-2e51d3033b96.jpg",
+            "whole_media_id": "da986844-5ea4-428a-b582-46f2dc5d0984.jpg"
+          },
+          "internal": null
+        },
+        "type": "idcard",
+        "voided": true
+      },
+      "third-voided-idcard-document-id": {
+        "completed": true,
+        "created_at": "2021-08-14T17:10:22",
+        "face_match_score": 0.9328685860379764,
+        "face_validation": {
+          "score": 0.943922349599661
+        },
+        "issuing_country": "FRA",
+        "sides": {
+          "back": {
+            "authenticity": {
+              "copy_traces": 0.3732092904775163,
+              "encoded_id_data_is_valid": null,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0,
+                "temporary_raw_score": 614.4342492187502
+              },
+              "saturation": {
+                "score": 0.3732092904775163,
+                "temporary_raw_score": 35.061583456912174
+              },
+              "screen": {
+                "score": 0.2750322022471909,
+                "temporary_raw_score": 0.279867196
+              }
+            },
+            "face_bounding_box": null,
+            "fields": {
+              "address": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.87
+                },
+                "value": "11 RUE PONCELET PARIS 17E (75)"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.36
+                },
+                "value": "2022-08-16"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.49
+                },
+                "value": "2012-08-17"
+              },
+              "issuing_authority": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.86
+                },
+                "value": "PREFECTURE DE POLICE - PARIS ANTENNE XVII (75)"
+              }
+            },
+            "manual_capture": true,
+            "media_id": "fbdf87d0-95e6-4791-bd20-1dc6a55208e3.jpg",
+            "template": "idcard_fra_back_v02002",
+            "thumbnail_id": "17184541-8b90-4e50-acd0-1f4ace289d95.jpg",
+            "whole_media_id": "5023852d-c3bf-4901-9a16-5354bc812d08.jpg"
+          },
+          "front": {
+            "authenticity": {
+              "copy_traces": 0.3945338232228476,
+              "encoded_id_data_is_valid": true,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0,
+                "temporary_raw_score": 591.5616273437456
+              },
+              "saturation": {
+                "score": 0.3945338232228476,
+                "temporary_raw_score": 31.351114759224515
+              },
+              "screen": {
+                "score": 0.26134876261937245,
+                "temporary_raw_score": 0.383137286
+              }
+            },
+            "face_bounding_box": {
+              "height": 280,
+              "width": 197,
+              "x": 104,
+              "y": 181
+            },
+            "fields": {
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "1977-04-20"
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.3
+                },
+                "value": "-RUETL-MALMATSON"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "ID"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2027-08-31"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.94
+                },
+                "value": "JAMES BOND"
+              },
+              "id_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2012-08-31"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.85
+                },
+                "value": "TATTTINGER"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "IDFRATAITTINGER<<<<<<<<<<<<<<<75S001\n{stub.id_card.number}1JAMES<<FRA7704204M0"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "M"
+              }
+            },
+            "manual_capture": true,
+            "media_id": "da88e770-99e3-4844-8298-795391ee532c.jpg",
+            "template": "idcard_fra_front_v02002",
+            "thumbnail_id": "41b4bd92-8575-4a75-acc3-2e51d3033b96.jpg",
+            "whole_media_id": "da986844-5ea4-428a-b582-46f2dc5d0984.jpg"
+          },
+          "internal": null
+        },
+        "type": "idcard",
+        "voided": true
+      },
+      "fourth-voided-idcard-document-id": {
+        "completed": true,
+        "created_at": "2021-08-14T17:10:22",
+        "face_match_score": 0.9328685860379764,
+        "face_validation": {
+          "score": 0.943922349599661
+        },
+        "issuing_country": "FRA",
+        "sides": {
+          "back": {
+            "authenticity": {
+              "copy_traces": 0.3732092904775163,
+              "encoded_id_data_is_valid": null,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0,
+                "temporary_raw_score": 614.4342492187502
+              },
+              "saturation": {
+                "score": 0.3732092904775163,
+                "temporary_raw_score": 35.061583456912174
+              },
+              "screen": {
+                "score": 0.2750322022471909,
+                "temporary_raw_score": 0.279867196
+              }
+            },
+            "face_bounding_box": null,
+            "fields": {
+              "address": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.87
+                },
+                "value": "11 RUE PONCELET PARIS 17E (75)"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.36
+                },
+                "value": "2022-08-16"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.49
+                },
+                "value": "2012-08-17"
+              },
+              "issuing_authority": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.86
+                },
+                "value": "PREFECTURE DE POLICE - PARIS ANTENNE XVII (75)"
+              }
+            },
+            "manual_capture": true,
+            "media_id": "fbdf87d0-95e6-4791-bd20-1dc6a55208e3.jpg",
+            "template": "idcard_fra_back_v02002",
+            "thumbnail_id": "17184541-8b90-4e50-acd0-1f4ace289d95.jpg",
+            "whole_media_id": "5023852d-c3bf-4901-9a16-5354bc812d08.jpg"
+          },
+          "front": {
+            "authenticity": {
+              "copy_traces": 0.3945338232228476,
+              "encoded_id_data_is_valid": true,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0,
+                "temporary_raw_score": 591.5616273437456
+              },
+              "saturation": {
+                "score": 0.3945338232228476,
+                "temporary_raw_score": 31.351114759224515
+              },
+              "screen": {
+                "score": 0.26134876261937245,
+                "temporary_raw_score": 0.383137286
+              }
+            },
+            "face_bounding_box": {
+              "height": 280,
+              "width": 197,
+              "x": 104,
+              "y": 181
+            },
+            "fields": {
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "1977-04-20"
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.3
+                },
+                "value": "-RUETL-MALMATSON"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "ID"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2027-08-31"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.94
+                },
+                "value": "JAMES BOND"
+              },
+              "id_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2012-08-31"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.85
+                },
+                "value": "TATTTINGER"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "IDFRATAITTINGER<<<<<<<<<<<<<<<75S001\n{stub.id_card.number}1JAMES<<FRA7704204M0"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "M"
+              }
+            },
+            "manual_capture": true,
+            "media_id": "da88e770-99e3-4844-8298-795391ee532c.jpg",
+            "template": "idcard_fra_front_v02002",
+            "thumbnail_id": "41b4bd92-8575-4a75-acc3-2e51d3033b96.jpg",
+            "whole_media_id": "da986844-5ea4-428a-b582-46f2dc5d0984.jpg"
+          },
+          "internal": null
+        },
+        "type": "idcard",
+        "voided": true
+      },
+      "fifth-voided-idcard-document-id": {
+        "completed": true,
+        "created_at": "2021-08-14T17:10:22",
+        "face_match_score": 0.9328685860379764,
+        "face_validation": {
+          "score": 0.943922349599661
+        },
+        "issuing_country": "FRA",
+        "sides": {
+          "back": {
+            "authenticity": {
+              "copy_traces": 0.3732092904775163,
+              "encoded_id_data_is_valid": null,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0,
+                "temporary_raw_score": 614.4342492187502
+              },
+              "saturation": {
+                "score": 0.3732092904775163,
+                "temporary_raw_score": 35.061583456912174
+              },
+              "screen": {
+                "score": 0.2750322022471909,
+                "temporary_raw_score": 0.279867196
+              }
+            },
+            "face_bounding_box": null,
+            "fields": {
+              "address": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.87
+                },
+                "value": "11 RUE PONCELET PARIS 17E (75)"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.36
+                },
+                "value": "2022-08-16"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.49
+                },
+                "value": "2012-08-17"
+              },
+              "issuing_authority": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.86
+                },
+                "value": "PREFECTURE DE POLICE - PARIS ANTENNE XVII (75)"
+              }
+            },
+            "manual_capture": true,
+            "media_id": "fbdf87d0-95e6-4791-bd20-1dc6a55208e3.jpg",
+            "template": "idcard_fra_back_v02002",
+            "thumbnail_id": "17184541-8b90-4e50-acd0-1f4ace289d95.jpg",
+            "whole_media_id": "5023852d-c3bf-4901-9a16-5354bc812d08.jpg"
+          },
+          "front": {
+            "authenticity": {
+              "copy_traces": 0.3945338232228476,
+              "encoded_id_data_is_valid": true,
+              "face_grayscale": null,
+              "heat_map_media_id": null,
+              "mse": {
+                "score": 0,
+                "temporary_raw_score": 591.5616273437456
+              },
+              "saturation": {
+                "score": 0.3945338232228476,
+                "temporary_raw_score": 31.351114759224515
+              },
+              "screen": {
+                "score": 0.26134876261937245,
+                "temporary_raw_score": 0.383137286
+              }
+            },
+            "face_bounding_box": {
+              "height": 280,
+              "width": 197,
+              "x": 104,
+              "y": 181
+            },
+            "fields": {
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "1977-04-20"
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.3
+                },
+                "value": "-RUETL-MALMATSON"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "ID"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2027-08-31"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.94
+                },
+                "value": "JAMES BOND"
+              },
+              "id_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2012-08-31"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.85
+                },
+                "value": "TATTTINGER"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "IDFRATAITTINGER<<<<<<<<<<<<<<<75S001\n{stub.id_card.number}1JAMES<<FRA7704204M0"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "M"
+              }
+            },
+            "manual_capture": true,
+            "media_id": "da88e770-99e3-4844-8298-795391ee532c.jpg",
+            "template": "idcard_fra_front_v02002",
+            "thumbnail_id": "41b4bd92-8575-4a75-acc3-2e51d3033b96.jpg",
+            "whole_media_id": "da986844-5ea4-428a-b582-46f2dc5d0984.jpg"
+          },
+          "internal": null
+        },
+        "type": "idcard",
+        "voided": true
+      }
+    },
+    "selfie_reports": {
+      "ea8f08c9-8b34-4de7-979f-e9b20a513825": {
+        "created_at": "2021-08-14T17:11:05",
+        "face_bounding_box": {
+          "height": 424,
+          "width": 648,
+          "x": 193,
+          "y": 164
+        },
+        "liveness": {
+          "score": 0.9984038844594594
+        },
+        "media_avatar_id": "7d1f30dd-5cab-433c-bb35-7b36a1557ad4.jpeg",
+        "media_id": "74e07ffd-fdcf-4295-b842-1904e031afde.jpg",
+        "media_selfie_id": "ea8f08c9-8b34-4de7-979f-e9b20a513825.png",
+        "voided": false
+      }
+    },
+    "user_summary": {
+      "authorized": false,
+      "created_at": "2021-08-14T17:10:03",
+      "documents": {
+        "status": {
+          "alert": [],
+          "info": []
+        },
+        "summary": {
+          "driving-license-document-id": {
+            "completed": true,
+            "created_at": "2021-08-14T17:10:40",
+            "face_validation": {
+              "score": 0.943922349599661
+            },
+            "fields": {
+              "a1_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.94
+                },
+                "value": "1996-04-26"
+              },
+              "am_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.82
+                },
+                "value": "2013-01-19"
+              },
+              "b1_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.94
+                },
+                "value": "1996-04-26"
+              },
+              "b_first_issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "1996-04-26"
+              },
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.89
+                },
+                "value": "1977-04-20"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "FRA"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "D1"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "2029-06-30"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.16
+                },
+                "value": "ADEXANDRE BRANZ"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.95
+                },
+                "value": "2014-06-30"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "TAITTING"
+              },
+              "license_categories": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.61625
+                },
+                "value": "A A2 A1 B AM B1"
+              },
+              "license_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "14AM81680"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.87
+                },
+                "value": "D1FRA14AM816800290630TAITTING0"
+              }
+            },
+            "issuing_country": "FRA",
+            "status": {
+              "alert": [],
+              "info": []
+            },
+            "type": "driverlicense",
+            "voided": false
+          },
+          "idcard-document-id": {
+            "completed": true,
+            "created_at": "2021-08-14T17:10:22",
+            "face_validation": {
+              "score": 0.943922349599661
+            },
+            "fields": {
+              "address": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.87
+                },
+                "value": "11 RUE PONCELET PARIS 17E (75)"
+              },
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "1977-04-20"
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.3
+                },
+                "value": "-RUETL-MALMATSON"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "ID"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2027-08-31"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.94
+                },
+                "value": "JAMES BOND"
+              },
+              "id_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2012-08-31"
+              },
+              "issuing_authority": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.86
+                },
+                "value": "PREFECTURE DE POLICE - PARIS ANTENNE XVII (75)"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.85
+                },
+                "value": "TATTTINGER"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "IDFRATAITTINGER<<<<<<<<<<<<<<<75S001\n{stub.id_card.number}1JAMES<<FRA7704204M0"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "M"
+              }
+            },
+            "issuing_country": "FRA",
+            "status": {
+              "alert": [],
+              "info": []
+            },
+            "type": "idcard",
+            "voided": false
+          },
+          "first-voided-idcard-document-id": {
+            "completed": true,
+            "created_at": "2021-08-14T17:10:22",
+            "face_validation": {
+              "score": 0.943922349599661
+            },
+            "fields": {
+              "address": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.87
+                },
+                "value": "11 RUE PONCELET PARIS 17E (75)"
+              },
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "1977-04-20"
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.3
+                },
+                "value": "-RUETL-MALMATSON"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "ID"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2027-08-31"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.94
+                },
+                "value": "JAMES BOND"
+              },
+              "id_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2012-08-31"
+              },
+              "issuing_authority": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.86
+                },
+                "value": "PREFECTURE DE POLICE - PARIS ANTENNE XVII (75)"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.85
+                },
+                "value": "TATTTINGER"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "IDFRATAITTINGER<<<<<<<<<<<<<<<75S001\n{stub.id_card.number}1JAMES<<FRA7704204M0"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "M"
+              }
+            },
+            "issuing_country": "FRA",
+            "status": {
+              "alert": [],
+              "info": []
+            },
+            "type": "idcard",
+            "voided": true
+          },
+          "second-voided-idcard-document-id": {
+            "completed": true,
+            "created_at": "2021-08-14T17:10:22",
+            "face_validation": {
+              "score": 0.943922349599661
+            },
+            "fields": {
+              "address": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.87
+                },
+                "value": "11 RUE PONCELET PARIS 17E (75)"
+              },
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "1977-04-20"
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.3
+                },
+                "value": "-RUETL-MALMATSON"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "ID"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2027-08-31"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.94
+                },
+                "value": "JAMES BOND"
+              },
+              "id_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2012-08-31"
+              },
+              "issuing_authority": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.86
+                },
+                "value": "PREFECTURE DE POLICE - PARIS ANTENNE XVII (75)"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.85
+                },
+                "value": "TATTTINGER"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "IDFRATAITTINGER<<<<<<<<<<<<<<<75S001\n{stub.id_card.number}1JAMES<<FRA7704204M0"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "M"
+              }
+            },
+            "issuing_country": "FRA",
+            "status": {
+              "alert": [],
+              "info": []
+            },
+            "type": "idcard",
+            "voided": true
+          },
+          "third-voided-idcard-document-id": {
+            "completed": true,
+            "created_at": "2021-08-14T17:10:22",
+            "face_validation": {
+              "score": 0.943922349599661
+            },
+            "fields": {
+              "address": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.87
+                },
+                "value": "11 RUE PONCELET PARIS 17E (75)"
+              },
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "1977-04-20"
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.3
+                },
+                "value": "-RUETL-MALMATSON"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "ID"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2027-08-31"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.94
+                },
+                "value": "JAMES BOND"
+              },
+              "id_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2012-08-31"
+              },
+              "issuing_authority": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.86
+                },
+                "value": "PREFECTURE DE POLICE - PARIS ANTENNE XVII (75)"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.85
+                },
+                "value": "TATTTINGER"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "IDFRATAITTINGER<<<<<<<<<<<<<<<75S001\n{stub.id_card.number}1JAMES<<FRA7704204M0"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "M"
+              }
+            },
+            "issuing_country": "FRA",
+            "status": {
+              "alert": [],
+              "info": []
+            },
+            "type": "idcard",
+            "voided": true
+          },
+          "fourth-voided-idcard-document-id": {
+            "completed": true,
+            "created_at": "2021-08-14T17:10:22",
+            "face_validation": {
+              "score": 0.943922349599661
+            },
+            "fields": {
+              "address": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.87
+                },
+                "value": "11 RUE PONCELET PARIS 17E (75)"
+              },
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "1977-04-20"
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.3
+                },
+                "value": "-RUETL-MALMATSON"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "ID"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2027-08-31"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.94
+                },
+                "value": "JAMES BOND"
+              },
+              "id_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2012-08-31"
+              },
+              "issuing_authority": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.86
+                },
+                "value": "PREFECTURE DE POLICE - PARIS ANTENNE XVII (75)"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.85
+                },
+                "value": "TATTTINGER"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "IDFRATAITTINGER<<<<<<<<<<<<<<<75S001\n{stub.id_card.number}1JAMES<<FRA7704204M0"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "M"
+              }
+            },
+            "issuing_country": "FRA",
+            "status": {
+              "alert": [],
+              "info": []
+            },
+            "type": "idcard",
+            "voided": true
+          },
+          "fifth-voided-idcard-document-id": {
+            "completed": true,
+            "created_at": "2021-08-14T17:10:22",
+            "face_validation": {
+              "score": 0.943922349599661
+            },
+            "fields": {
+              "address": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.87
+                },
+                "value": "11 RUE PONCELET PARIS 17E (75)"
+              },
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "1977-04-20"
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.3
+                },
+                "value": "-RUETL-MALMATSON"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "ID"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [
+                    {
+                      "code": 4002,
+                      "message": "Inconsistent Field"
+                    }
+                  ],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2027-08-31"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.94
+                },
+                "value": "JAMES BOND"
+              },
+              "id_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2012-08-31"
+              },
+              "issuing_authority": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.86
+                },
+                "value": "PREFECTURE DE POLICE - PARIS ANTENNE XVII (75)"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.85
+                },
+                "value": "TATTTINGER"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "IDFRATAITTINGER<<<<<<<<<<<<<<<75S001\n{stub.id_card.number}1JAMES<<FRA7704204M0"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "FRA"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "M"
+              }
+            },
+            "issuing_country": "FRA",
+            "status": {
+              "alert": [],
+              "info": []
+            },
+            "type": "idcard",
+            "voided": true
+          }
+        },
+        "uploaded_documents": [
+          "idcard-document-id",
+          "driving-license-document-id",
+          "first-voided-idcard-document-id",
+          "second-voided-idcard-document-id",
+          "third-voided-idcard-document-id",
+          "fourth-voided-idcard-document-id",
+          "fifth-voided-idcard-document-id"
+        ]
+      },
+      "fields": {
+        "address": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 0.87
+          },
+          "value": "11 RUE PONCELET PARIS 17E (75)"
+        },
+        "birth_date": {
+          "status": {
+            "alert": [],
+            "info": [
+              {
+                "code": 2301,
+                "message": "Field is checked"
+              },
+              {
+                "code": 2100,
+                "message": "Valid date format"
+              },
+              {
+                "code": 2101,
+                "message": "Date is within valid range"
+              },
+              {
+                "code": 2102,
+                "message": "Over 18 years old"
+              }
+            ],
+            "score": 0.91
+          },
+          "value": "1977-04-20"
+        },
+        "email": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 1
+          },
+          "value": "zeus.agent@cooltra.com"
+        },
+        "first_name": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 0.94
+          },
+          "value": "JAMES BOND"
+        },
+        "last_name": {
+          "status": {
+            "alert": [],
+            "info": [
+              {
+                "code": 2301,
+                "message": "Field is checked"
+              }
+            ],
+            "score": 0.87
+          },
+          "value": "TAITTING"
+        },
+        "nationality": {
+          "status": {
+            "alert": [],
+            "info": [
+              {
+                "code": 2301,
+                "message": "Field is checked"
+              }
+            ],
+            "score": 0.91
+          },
+          "value": "FRA"
+        },
+        "registration_first_name": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 1
+          },
+          "value": "999214"
+        },
+        "registration_last_name": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 1
+          },
+          "value": "ZEUS-COOLTRA"
+        },
+        "sex": {
+          "status": {
+            "alert": [],
+            "info": [
+              {
+                "code": 2301,
+                "message": "Field is checked"
+              }
+            ],
+            "score": 0.91
+          },
+          "value": "M"
+        }
+      },
+      "selfie": {
+        "created_at": "2021-08-14T17:11:05",
+        "face_bounding_box": {
+          "height": 424,
+          "width": 648,
+          "x": 193,
+          "y": 164
+        },
+        "liveness": {
+          "score": 0.9984038844594594
+        },
+        "media_avatar_id": "7d1f30dd-5cab-433c-bb35-7b36a1557ad4.jpeg",
+        "media_id": "74e07ffd-fdcf-4295-b842-1904e031afde.jpg",
+        "media_selfie_id": "ea8f08c9-8b34-4de7-979f-e9b20a513825.png",
+        "voided": false
+      },
+      "user_id": "a6ec6062-6e63-4ca2-84d7-c3f37ba2b594"
+    },
+    "version": 0
+  }
+}

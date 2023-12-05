@@ -1,0 +1,933 @@
+{
+  "report": {
+    "created_at": "2021-07-21T13:30:22.093770",
+    "document_reports": {
+      "passport-document-id": {
+        "completed": true,
+        "created_at": "2021-07-21T13:30:09",
+        "face_match_score": 0.07567617933074923,
+        "face_validation": {
+          "score": 0.943922349599661
+        },
+        "issuing_country": "AUTO",
+        "sides": {
+          "back": {
+            "authenticity": {
+              "encoded_id_data_is_valid": true
+            },
+            "face_bounding_box": null,
+            "fields": {
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.9
+                },
+                "value": "1987-08-27"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.9
+                },
+                "value": "{stub.country}"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.9
+                },
+                "value": "P"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.9
+                },
+                "value": "2027-02-07"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.9
+                },
+                "value": "PAVEL"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.9
+                },
+                "value": "DAVYDOV"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2300,
+                      "message": "Name is entirely contained in MRZ"
+                    }
+                  ],
+                  "score": 0.9
+                },
+                "value": "P<RUSDAVYDOV<<PAVEL<<<<<<<<<<<<<<<<<<<<<<<<<\n{stub.id_card.number}3RUS8708276M2702076<<<<<<<<<<<<<<08"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.9
+                },
+                "value": "{stub.country}"
+              },
+              "optional_data": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "passport_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.9
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.9
+                },
+                "value": "M"
+              }
+            },
+            "manual_capture": true,
+            "media_id": "fee1ef0c-d9ed-477e-81c8-1592a641edb5.jpg",
+            "template": "passport_rus_back_v01001",
+            "thumbnail_id": "90c739df-1840-4a94-8337-3b37f11cbaac.jpg",
+            "whole_media_id": null
+          },
+          "front": {
+            "authenticity": {
+              "encoded_id_data_is_valid": true
+            },
+            "face_bounding_box": {
+              "height": 218,
+              "width": 157,
+              "x": 523,
+              "y": 202
+            },
+            "fields": {
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "1987-08-27"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.country}"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "P"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2027-02-07"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2302,
+                      "message": "Name words number matches MRZ"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "PAVEL"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2302,
+                      "message": "Name words number matches MRZ"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "DAVYDOV"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2300,
+                      "message": "Name is entirely contained in MRZ"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "P<RUSDAVYDOV<<PAVEL<<<<<<<<<<<<<<<<<<<<<<<<<\n{stub.id_card.number}3RUS8708276M2702076<<<<<<<<<<<<<<08"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.country}"
+              },
+              "optional_data": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "passport_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "M"
+              }
+            },
+            "manual_capture": true,
+            "media_id": "a40577cf-4680-4d71-9ac3-b6e91bda57c3.jpg",
+            "template": "passport_rus_front_v01001",
+            "thumbnail_id": "b2239957-2433-4afa-a3e3-f4fce3367759.jpg",
+            "whole_media_id": null
+          },
+          "internal": null
+        },
+        "type": "passport",
+        "voided": false
+      },
+      "driving-license-document-id": {
+        "completed": true,
+        "created_at": "2021-07-21T13:30:14",
+        "face_match_score": 0.9880070694341782,
+        "face_validation": {
+          "score": 0.943922349599661
+        },
+        "issuing_country": "FRA",
+        "sides": {
+          "back": {
+            "authenticity": null,
+            "face_bounding_box": null,
+            "fields": null,
+            "manual_capture": true,
+            "media_id": "39179bd7-f4e1-406b-bbb6-465804756149.jpg",
+            "template": null,
+            "thumbnail_id": "ec9e6bbe-a22d-43a5-9c44-436450c1f339.jpg",
+            "whole_media_id": null
+          },
+          "front": {
+            "authenticity": null,
+            "face_bounding_box": {
+              "height": 234,
+              "width": 168,
+              "x": 54,
+              "y": 525
+            },
+            "fields": {
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.96
+                },
+                "value": "1987-08-27"
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.91
+                },
+                "value": "G. LENINGRAD"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.96
+                },
+                "value": "2028-08-29"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0
+                },
+                "value": "PAVELNIKOLABVICH"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.95
+                },
+                "value": "2018-08-29"
+              },
+              "issuing_authority": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0
+                },
+                "value": "TE"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0
+                },
+                "value": "AABLIOB"
+              },
+              "license_categories": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              },
+              "license_number": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": null
+                },
+                "value": null
+              }
+            },
+            "manual_capture": true,
+            "media_id": "f0d8d741-4489-41bc-84d7-386560e91bdb.jpg",
+            "template": "driverlicense_rus_front_v03001",
+            "thumbnail_id": "54a6fbda-2ff7-4a2d-b25f-496d9d2f2852.jpg",
+            "whole_media_id": null
+          },
+          "internal": null
+        },
+        "type": "driverlicense",
+        "voided": false
+      }
+    },
+    "selfie_reports": {
+      "a4045d1e-82d0-41af-b01d-b523bd1d3a05": {
+        "created_at": "2021-07-21T13:30:21",
+        "face_bounding_box": {
+          "height": 500,
+          "width": 340,
+          "x": 194,
+          "y": 275
+        },
+        "liveness": {
+          "score": 0.999652520945946
+        },
+        "media_avatar_id": "49b6ac53-73e6-4822-a72c-384baf5a1904.jpeg",
+        "media_id": "e420967c-7a40-4cf4-92b4-57bfd4759b5b.jpg",
+        "media_selfie_id": "a4045d1e-82d0-41af-b01d-b523bd1d3a05.png",
+        "voided": false
+      }
+    },
+    "user_summary": {
+      "authorized": false,
+      "created_at": "2021-07-21T13:29:57",
+      "documents": {
+        "status": {
+          "alert": [],
+          "info": []
+        },
+        "summary": {
+          "passport-document-id": {
+            "completed": true,
+            "created_at": "2021-07-21T13:30:09",
+            "face_validation": {
+              "score": 0.943922349599661
+            },
+            "fields": {
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "1987-08-27"
+              },
+              "country": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.country}"
+              },
+              "document_type": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "P"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "2027-02-07"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.9
+                },
+                "value": "PAVEL"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.9
+                },
+                "value": "DAVYDOV"
+              },
+              "mrz": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    },
+                    {
+                      "code": 2300,
+                      "message": "Name is entirely contained in MRZ"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "P<RUSDAVYDOV<<PAVEL<<<<<<<<<<<<<<<<<<<<<<<<<\n{stub.id_card.number}3RUS8708276M2702076<<<<<<<<<<<<<<08"
+              },
+              "nationality": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.country}"
+              },
+              "passport_number": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "{stub.id_card.number}"
+              },
+              "sex": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2301,
+                      "message": "Field is checked"
+                    }
+                  ],
+                  "score": 0.91
+                },
+                "value": "M"
+              }
+            },
+            "issuing_country": "AUTO",
+            "status": {
+              "alert": [],
+              "info": []
+            },
+            "type": "passport",
+            "voided": false
+          },
+          "driving-license-document-id": {
+            "completed": true,
+            "created_at": "2021-07-21T13:30:14",
+            "face_validation": {
+              "score": 0.943922349599661
+            },
+            "fields": {
+              "birth_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    },
+                    {
+                      "code": 2102,
+                      "message": "Over 18 years old"
+                    }
+                  ],
+                  "score": 0.96
+                },
+                "value": "1987-08-27"
+              },
+              "birth_place": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.91
+                },
+                "value": "G. LENINGRAD"
+              },
+              "expiration_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.96
+                },
+                "value": "2028-08-29"
+              },
+              "first_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0
+                },
+                "value": "PAVELNIKOLABVICH"
+              },
+              "issue_date": {
+                "status": {
+                  "alert": [],
+                  "info": [
+                    {
+                      "code": 2100,
+                      "message": "Valid date format"
+                    },
+                    {
+                      "code": 2101,
+                      "message": "Date is within valid range"
+                    }
+                  ],
+                  "score": 0.95
+                },
+                "value": "2018-08-29"
+              },
+              "issuing_authority": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0
+                },
+                "value": "TE"
+              },
+              "license_categories": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0.83
+                },
+                "value": "A B"
+              },
+              "last_name": {
+                "status": {
+                  "alert": [],
+                  "info": [],
+                  "score": 0
+                },
+                "value": "AABLIOB"
+              }
+            },
+            "issuing_country": "FRA",
+            "status": {
+              "alert": [],
+              "info": []
+            },
+            "type": "driverlicense",
+            "voided": false
+          }
+        },
+        "uploaded_documents": [
+          "passport-document-id",
+          "driving-license-document-id"
+        ]
+      },
+      "fields": {
+        "address": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": null
+          },
+          "value": null
+        },
+        "birth_date": {
+          "status": {
+            "alert": [],
+            "info": [
+              {
+                "code": 2301,
+                "message": "Field is checked"
+              },
+              {
+                "code": 2100,
+                "message": "Valid date format"
+              },
+              {
+                "code": 2101,
+                "message": "Date is within valid range"
+              },
+              {
+                "code": 2102,
+                "message": "Over 18 years old"
+              }
+            ],
+            "score": 0.91
+          },
+          "value": "1987-08-27"
+        },
+        "email": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": null
+          },
+          "value": null
+        },
+        "first_name": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 0.9
+          },
+          "value": "PAVEL"
+        },
+        "last_name": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 0.9
+          },
+          "value": "DAVYDOV"
+        },
+        "nationality": {
+          "status": {
+            "alert": [],
+            "info": [
+              {
+                "code": 2301,
+                "message": "Field is checked"
+              }
+            ],
+            "score": 0.91
+          },
+          "value": "{stub.country}"
+        },
+        "registration_first_name": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": 1.0
+          },
+          "value": "624317"
+        },
+        "registration_last_name": {
+          "status": {
+            "alert": [],
+            "info": [],
+            "score": null
+          },
+          "value": null
+        },
+        "sex": {
+          "status": {
+            "alert": [],
+            "info": [
+              {
+                "code": 2301,
+                "message": "Field is checked"
+              }
+            ],
+            "score": 0.91
+          },
+          "value": "M"
+        }
+      },
+      "selfie": {
+        "created_at": "2021-07-21T13:30:21",
+        "face_bounding_box": {
+          "height": 500,
+          "width": 340,
+          "x": 194,
+          "y": 275
+        },
+        "liveness": {
+          "score": 0.999652520945946
+        },
+        "media_avatar_id": "49b6ac53-73e6-4822-a72c-384baf5a1904.jpeg",
+        "media_id": "e420967c-7a40-4cf4-92b4-57bfd4759b5b.jpg",
+        "media_selfie_id": "a4045d1e-82d0-41af-b01d-b523bd1d3a05.png",
+        "voided": false
+      },
+      "user_id": "ab77a8c4-eeb8-4588-8960-cde240d72f1d"
+    },
+    "version": 0
+  }
+}

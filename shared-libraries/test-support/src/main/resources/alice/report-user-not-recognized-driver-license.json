@@ -1,0 +1,1303 @@
+{
+  "report" : {
+  "created_at": "2023-05-04T07:40:33.941825",
+  "document_reports": {
+    "driving-license-document-id": {
+      "completed": true,
+      "created_at": "2023-05-04T07:40:25",
+      "externally_verified": null,
+      "face_match_score": 0.9204425001344828,
+      "face_validation": {
+        "score": 0.8884885557787278
+      },
+      "issuing_country": "ESP",
+      "sides": {
+        "back": {
+          "authenticity": {
+            "encoded_id_data_is_valid": null,
+            "fused_print": 0.0041456499236187105,
+            "print": {
+              "score": 0.0041456499236187105,
+              "temporary_raw_score": 0.0052152276039123535
+            },
+            "screen": {
+              "score": 0.021999513646036084,
+              "temporary_raw_score": 0.012627720832824709
+            },
+            "synthetic": {
+              "score": 0.000583939254283905,
+              "temporary_raw_score": 0.00007474422454833984
+            }
+          },
+          "created_at": "2023-05-04T07:40:31",
+          "face_bounding_box": null,
+          "fields": {
+            "a1_expiration_date": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": null
+              },
+              "value": null
+            },
+            "a1_first_issue_date": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": null
+              },
+              "value": null
+            },
+            "a2_expiration_date": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": null
+              },
+              "value": null
+            },
+            "a2_first_issue_date": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": null
+              },
+              "value": null
+            },
+            "a_expiration_date": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": null
+              },
+              "value": null
+            },
+            "a_first_issue_date": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": null
+              },
+              "value": null
+            },
+            "am_expiration_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  }
+                ],
+                "score": 0.12
+              },
+              "value": "2032-08-01"
+            },
+            "am_first_issue_date": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": null
+              },
+              "value": null
+            },
+            "b_expiration_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  }
+                ],
+                "score": 0.86
+              },
+              "value": "2032-08-01"
+            },
+            "b_first_issue_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  }
+                ],
+                "score": 0.31
+              },
+              "value": "2022-08-01"
+            },
+            "be_expiration_date": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": null
+              },
+              "value": null
+            },
+            "be_first_issue_date": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": null
+              },
+              "value": null
+            },
+            "btp_expiration_date": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": null
+              },
+              "value": null
+            },
+            "btp_first_issue_date": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": null
+              },
+              "value": null
+            },
+            "restriction_codes": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": null
+              },
+              "value": null
+            }
+          },
+          "manual_capture": true,
+          "media_id": "388a614b-2225-4101-8e7e-7589102aebd3.jpg",
+          "template": "driverlicense_esp_back_v4",
+          "thumbnail_id": "bc302280-44f6-4581-8939-24c6db5f07af.jpg",
+          "whole_media_id": "74ae438f-5f70-43ab-9fb2-98f76e81c3b0.jpg"
+        },
+        "front": {
+          "authenticity": {
+            "copy_traces": 0.3043491507784561,
+            "encoded_id_data_is_valid": null,
+            "face_grayscale": null,
+            "fused_print": 0.3043491507784561,
+            "mse": {
+              "score": 0.4686976921988224,
+              "temporary_raw_score": 68.79812317708334
+            },
+            "photo_over_doc": {
+              "score": 0.007380379570855078,
+              "temporary_raw_score": 0.007970809936523438
+            },
+            "print": {
+              "score": 0.022133365155024457,
+              "temporary_raw_score": 0.027843773365020752
+            },
+            "saturation": {
+              "score": 0.4602954152990565,
+              "temporary_raw_score": 19.90859773796417
+            },
+            "screen": {
+              "score": 0.0174714297783084,
+              "temporary_raw_score": 0.010028600692749023
+            },
+            "synthetic": {
+              "score": 0.00036600977182388306,
+              "temporary_raw_score": 0.00004684925079345703
+            }
+          },
+          "created_at": "2023-05-04T07:40:28",
+          "face_bounding_box": {
+            "height": 179,
+            "width": 123,
+            "x": 244,
+            "y": 649
+          },
+          "fields": {
+            "birth_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  },
+                  {
+                    "code": 2102,
+                    "message": "Over 18 years old"
+                  }
+                ],
+                "score": 0.94
+              },
+              "value": "1988-04-22"
+            },
+            "expiration_date": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": null
+              },
+              "value": null
+            },
+            "first_name": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.91
+              },
+              "value": "INMACULADA"
+            },
+            "issue_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  }
+                ],
+                "score": 0.1
+              },
+              "value": "2022-08-04"
+            },
+            "issuing_authority": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.96
+              },
+              "value": "46-00"
+            },
+            "last_name": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.93
+              },
+              "value": "CARPENA\nSANCHEZ"
+            },
+            "license_categories": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.86
+              },
+              "value": "AM"
+            },
+            "license_number": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "{stub.id_card.number}"
+            }
+          },
+          "manual_capture": true,
+          "media_id": "27e6a6ee-e697-44ba-874b-869848b50ecc.jpg",
+          "template": "driverlicense_esp_front_v4",
+          "thumbnail_id": "cc92aace-8bd7-49bb-984e-38326b374f82.jpg",
+          "whole_media_id": "8a886598-dcba-4434-a8be-f175ddc7db91.jpg"
+        },
+        "internal": null
+      },
+      "type": "driverlicense",
+      "voided": false
+    },
+    "idcard-document-id": {
+      "completed": true,
+      "created_at": "2023-05-04T07:40:19",
+      "externally_verified": true,
+      "face_match_score": 0.9255852681518818,
+      "face_validation": {
+        "score": 0.8936399508798284
+      },
+      "issuing_country": "ESP",
+      "sides": {
+        "back": {
+          "authenticity": {
+            "encoded_id_data_is_valid": true,
+            "fused_print": 0.004123144195265549,
+            "print": {
+              "score": 0.004123144195265549,
+              "temporary_raw_score": 0.005186915397644043
+            },
+            "print_hq": {
+              "score": 0.00013795765963464657,
+              "temporary_raw_score": 0.00015175342559814453
+            },
+            "screen": {
+              "score": 0.014236579788686532,
+              "temporary_raw_score": 0.008171796798706055
+            },
+            "synthetic": {
+              "score": 0.0001825392246246338,
+              "temporary_raw_score": 0.000023365020751953125
+            }
+          },
+          "created_at": "2023-05-04T07:40:24",
+          "face_bounding_box": null,
+          "fields": {
+            "address": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.79
+              },
+              "value": "C. FRANCISCO MARTINEZ 16 POS5\nVALENCIA\nVALENCIA"
+            },
+            "birth_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  },
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  },
+                  {
+                    "code": 2102,
+                    "message": "Over 18 years old"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "1988-04-22"
+            },
+            "birth_place": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.96
+              },
+              "value": "VALENCIA\nVALENCIA"
+            },
+            "country": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "ESP"
+            },
+            "document_number": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "BMZ180614"
+            },
+            "document_type": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "ID"
+            },
+            "expiration_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  },
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "2030-11-24"
+            },
+            "first_name": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.92
+              },
+              "value": "INMACULADA"
+            },
+            "id_number": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "{stub.id_card.number}"
+            },
+            "issue_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  },
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "2020-11-24"
+            },
+            "last_name": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.92
+              },
+              "value": "CARPENA SANCHEZ"
+            },
+            "mrz": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  },
+                  {
+                    "code": 2300,
+                    "message": "Name is entirely contained in MRZ"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "IDESPBMZ1806148{stub.id_card.number}<<<<<<\n8804226F3011249ESP<<<<<<<<<<<9\nCARPENA<SANCHEZ<<INMACULADA<<<"
+            },
+            "nationality": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "ESP"
+            },
+            "optional_data": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "{stub.id_card.number}"
+            },
+            "optional_data_2": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": null
+              },
+              "value": null
+            },
+            "parents_names": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.82
+              },
+              "value": "SALVADOR / MARIA CARMEN /"
+            },
+            "sex": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "F"
+            }
+          },
+          "manual_capture": true,
+          "media_id": "e37b1936-aa56-43d1-9f2a-791f9bb4742e.jpg",
+          "template": "idcard_esp_back_v3",
+          "thumbnail_id": "bbb3bea2-21e3-4eba-a214-9d521a4238d1.jpg",
+          "whole_media_id": "168777fe-ced9-4ce5-8afe-685199bafb07.jpg"
+        },
+        "front": {
+          "authenticity": {
+            "copy_traces": 0.25080753413957146,
+            "encoded_id_data_is_valid": null,
+            "face_grayscale": null,
+            "fused_print": 0.25080753413957146,
+            "mse": {
+              "score": 0.1534612355638587,
+              "temporary_raw_score": 358.81566328125
+            },
+            "photo_over_doc": {
+              "score": 0.005686448680029987,
+              "temporary_raw_score": 0.006141364574432373
+            },
+            "print": {
+              "score": 0.006631940650636714,
+              "temporary_raw_score": 0.008342981338500977
+            },
+            "print_hq": {
+              "score": 0.0015076723965731231,
+              "temporary_raw_score": 0.0016584396362304688
+            },
+            "saturation": {
+              "score": 0.38624360257494006,
+              "temporary_raw_score": 32.79361315196043
+            },
+            "screen": {
+              "score": 0.01465651216407271,
+              "temporary_raw_score": 0.008412837982177734
+            },
+            "synthetic": {
+              "score": 0.00016205012798309326,
+              "temporary_raw_score": 0.000020742416381835938
+            }
+          },
+          "created_at": "2023-05-04T07:40:22",
+          "face_bounding_box": {
+            "height": 259,
+            "width": 186,
+            "x": 223,
+            "y": 597
+          },
+          "fields": {
+            "birth_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  },
+                  {
+                    "code": 2102,
+                    "message": "Over 18 years old"
+                  }
+                ],
+                "score": 0.95
+              },
+              "value": "1988-04-22"
+            },
+            "can": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.96
+              },
+              "value": "813376"
+            },
+            "document_number": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.01
+              },
+              "value": "BRZ180614"
+            },
+            "expiration_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  }
+                ],
+                "score": 0.76
+              },
+              "value": "2030-11-24"
+            },
+            "first_name": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2302,
+                    "message": "Name words number matches MRZ"
+                  }
+                ],
+                "score": 0.96
+              },
+              "value": "INMACULADA"
+            },
+            "id_number": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  }
+                ],
+                "score": 0
+              },
+              "value": "{stub.id_card.number}"
+            },
+            "last_name": {
+              "status": {
+                "alert": [
+                  {
+                    "code": 4003,
+                    "message": "Name words number does not match MRZ"
+                  }
+                ],
+                "info": [],
+                "score": 0.935
+              },
+              "value": "CARPENA\nSANCHEZ"
+            },
+            "nationality": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 1
+              },
+              "value": "ESP"
+            },
+            "sex": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.92
+              },
+              "value": "F"
+            }
+          },
+          "manual_capture": true,
+          "media_id": "5737f992-e5a3-47a4-9fee-d3e54c57ae23.jpg",
+          "template": "idcard_esp_front_v3",
+          "thumbnail_id": "a23f2110-4cf7-49b8-9b80-58900819d867.jpg",
+          "whole_media_id": "81bc852f-8fd2-492e-a571-fcacadd46d8b.jpg"
+        },
+        "internal": null
+      },
+      "type": "idcard",
+      "voided": false
+    }
+  },
+  "selfie_reports": {
+    "41fd3ab1-b670-4dc6-a01b-4125c86472b4": {
+      "created_at": "2023-05-04T07:40:33",
+      "face_bounding_box": {
+        "height": 1095,
+        "width": 1564,
+        "x": 38,
+        "y": 165
+      },
+      "liveness": {
+        "score": 0.999969692553504
+      },
+      "media_avatar_id": "af202114-efdf-4540-b312-5bb41c65c589.jpeg",
+      "media_id": "d46f96fd-5f6d-4e2a-b30c-df59d5f9951a.jpg",
+      "media_selfie_id": "41fd3ab1-b670-4dc6-a01b-4125c86472b4.png",
+      "voided": false
+    }
+  },
+  "user_summary": {
+    "authorized": false,
+    "created_at": "2023-05-04T07:40:19",
+    "documents": {
+      "status": {
+        "alert": [],
+        "info": []
+      },
+      "summary": {
+        "driving-license-document-id": {
+          "completed": true,
+          "created_at": "2023-05-04T07:40:25",
+          "face_validation": {
+            "score": 0.8884885557787278
+          },
+          "fields": {
+            "am_expiration_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  }
+                ],
+                "score": 0.12
+              },
+              "value": "2032-08-01"
+            },
+            "b_expiration_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  }
+                ],
+                "score": 0.86
+              },
+              "value": "2032-08-01"
+            },
+            "b_first_issue_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  }
+                ],
+                "score": 0.31
+              },
+              "value": "2022-08-01"
+            },
+            "birth_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  },
+                  {
+                    "code": 2102,
+                    "message": "Over 18 years old"
+                  }
+                ],
+                "score": 0.94
+              },
+              "value": "1988-04-22"
+            },
+            "first_name": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.91
+              },
+              "value": "INMACULADA"
+            },
+            "issue_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  }
+                ],
+                "score": 0.1
+              },
+              "value": "2022-08-04"
+            },
+            "issuing_authority": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.96
+              },
+              "value": "46-00"
+            },
+            "last_name": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.93
+              },
+              "value": "CARPENA\nSANCHEZ"
+            },
+            "license_categories": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.5375
+              },
+              "value": "B AM"
+            },
+            "license_number": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "{stub.id_card.number}"
+            }
+          },
+          "issuing_country": "ESP",
+          "status": {
+            "alert": [],
+            "info": []
+          },
+          "type": "driverlicense",
+          "voided": false
+        },
+        "idcard-document-id": {
+          "completed": true,
+          "created_at": "2023-05-04T07:40:19",
+          "face_validation": {
+            "score": 0.8936399508798284
+          },
+          "fields": {
+            "address": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.79
+              },
+              "value": "C. FRANCISCO MARTINEZ 16 POS5\nVALENCIA\nVALENCIA"
+            },
+            "birth_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  },
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  },
+                  {
+                    "code": 2102,
+                    "message": "Over 18 years old"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "1988-04-22"
+            },
+            "birth_place": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.96
+              },
+              "value": "VALENCIA\nVALENCIA"
+            },
+            "can": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.96
+              },
+              "value": "813376"
+            },
+            "country": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "ESP"
+            },
+            "document_number": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "BMZ180614"
+            },
+            "document_type": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "ID"
+            },
+            "expiration_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  },
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "2030-11-24"
+            },
+            "first_name": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.92
+              },
+              "value": "INMACULADA"
+            },
+            "id_number": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "{stub.id_card.number}"
+            },
+            "issue_date": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  },
+                  {
+                    "code": 2100,
+                    "message": "Valid date format"
+                  },
+                  {
+                    "code": 2101,
+                    "message": "Date is within valid range"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "2020-11-24"
+            },
+            "last_name": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.92
+              },
+              "value": "CARPENA SANCHEZ"
+            },
+            "mrz": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  },
+                  {
+                    "code": 2300,
+                    "message": "Name is entirely contained in MRZ"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "IDESPBMZ1806148{stub.id_card.number}<<<<<<\n8804226F3011249ESP<<<<<<<<<<<9\nCARPENA<SANCHEZ<<INMACULADA<<<"
+            },
+            "nationality": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "ESP"
+            },
+            "optional_data": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "{stub.id_card.number}"
+            },
+            "parents_names": {
+              "status": {
+                "alert": [],
+                "info": [],
+                "score": 0.82
+              },
+              "value": "SALVADOR / MARIA CARMEN /"
+            },
+            "sex": {
+              "status": {
+                "alert": [],
+                "info": [
+                  {
+                    "code": 2301,
+                    "message": "Field is checked"
+                  }
+                ],
+                "score": 0.92
+              },
+              "value": "F"
+            }
+          },
+          "issuing_country": "ESP",
+          "status": {
+            "alert": [],
+            "info": []
+          },
+          "type": "idcard",
+          "voided": false
+        }
+      },
+      "uploaded_documents": [
+        "idcard-document-id",
+        "driving-license-document-id"
+      ]
+    },
+    "fields": {
+      "address": {
+        "status": {
+          "alert": [],
+          "info": [],
+          "score": 0.79
+        },
+        "value": "C. FRANCISCO MARTINEZ 16 POS5\nVALENCIA\nVALENCIA"
+      },
+      "birth_date": {
+        "status": {
+          "alert": [],
+          "info": [
+            {
+              "code": 2301,
+              "message": "Field is checked"
+            },
+            {
+              "code": 2100,
+              "message": "Valid date format"
+            },
+            {
+              "code": 2101,
+              "message": "Date is within valid range"
+            },
+            {
+              "code": 2102,
+              "message": "Over 18 years old"
+            }
+          ],
+          "score": 0.92
+        },
+        "value": "1988-04-22"
+      },
+      "email": {
+        "status": {
+          "alert": [],
+          "info": [],
+          "score": 1
+        },
+        "value": "zeus.agent@cooltra.com"
+      },
+      "first_name": {
+        "status": {
+          "alert": [],
+          "info": [],
+          "score": 0.92
+        },
+        "value": "INMACULADA"
+      },
+      "last_name": {
+        "status": {
+          "alert": [],
+          "info": [],
+          "score": 0.93
+        },
+        "value": "CARPENA\nSANCHEZ"
+      },
+      "nationality": {
+        "status": {
+          "alert": [],
+          "info": [
+            {
+              "code": 2301,
+              "message": "Field is checked"
+            }
+          ],
+          "score": 0.92
+        },
+        "value": "ESP"
+      },
+      "registration_first_name": {
+        "status": {
+          "alert": [],
+          "info": [],
+          "score": 1
+        },
+        "value": "593754C0-0E90-43DA-8F9A-8DAC383D771A"
+      },
+      "registration_last_name": {
+        "status": {
+          "alert": [],
+          "info": [],
+          "score": 1
+        },
+        "value": "ZEUS-COOLTRA"
+      },
+      "sex": {
+        "status": {
+          "alert": [],
+          "info": [
+            {
+              "code": 2301,
+              "message": "Field is checked"
+            }
+          ],
+          "score": 0.92
+        },
+        "value": "F"
+      }
+    },
+    "selfie": {
+      "created_at": "2023-05-04T07:40:33",
+      "face_bounding_box": {
+        "height": 1095,
+        "width": 1564,
+        "x": 38,
+        "y": 165
+      },
+      "liveness": {
+        "score": 0.999969692553504
+      },
+      "media_avatar_id": "af202114-efdf-4540-b312-5bb41c65c589.jpeg",
+      "media_id": "d46f96fd-5f6d-4e2a-b30c-df59d5f9951a.jpg",
+      "media_selfie_id": "41fd3ab1-b670-4dc6-a01b-4125c86472b4.png",
+      "voided": false
+    },
+    "user_id": "78572e4e-c5b7-434c-8429-4ec16c5f7d26"
+  },
+  "version": 0
+}
+}
